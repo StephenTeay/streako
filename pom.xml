@@ -11,14 +11,20 @@
 	<groupId>com.teay</groupId>
 	<artifactId>streako</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+
+	<name>Streako</name>
+	<description> Habit tracking with peers </description>
+	<url>https://github.com/StephenTeay/streako.git</url>
 	<licenses>
 		<license/>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+		<name> Ayomide Taiwo </name>
+		<email>taiwoayomide899@gmail.com</email>
+			<url>https://teay.netlify.app</url>
+			<timezone>Africa/Lagos</timezone>
+		</developer>
 	</developers>
 	<scm>
 		<connection/>
@@ -27,7 +33,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>24</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -42,10 +48,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-flyway</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-kafka</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-kafka</artifactId>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -67,10 +73,20 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>3.2.0</version>
 		</dependency>
+
 		<dependency>
-			<groupId>org.thymeleaf.extras</groupId>
-			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security-oauth2-resource-server</artifactId>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.thymeleaf.extras</groupId>-->
+<!--			<artifactId>thymeleaf-extras-springsecurity6</artifactId>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
